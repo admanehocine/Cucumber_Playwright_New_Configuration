@@ -1,0 +1,26 @@
+{
+  "name": "cvea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js",
+  "test:chromium": "cross-env BROWSER=chromium cucumber-js",
+  "test:firefox": "cross-env BROWSER=firefox cucumber-js",
+  "test:webkit": "cross-env BROWSER=webkit cucumber-js",
+  "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit"
+} ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.0",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "cross-env": "^10.1.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}

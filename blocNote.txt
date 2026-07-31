@@ -1,0 +1,43 @@
+creation de projet playwright 
+1- npm init -y
+
+2- npm install -D @playwright/test
+
+3- npx playwright install
+
+4- npm install -D typescript@5.3.3 ts-node@10.9.2
+
+5- npx tsc --init
+
+6- npm install -D @cucumber/cucumber
+
+7- npm install -D tsconfig-paths
+
+8- npm install -D @types/node 
+
+9- structure du projet:
+
+    ProjetPlaywright
+    │
+    ├── features
+    │     ├── login.feature
+    │     ├── step_definitions
+    │     │      └── login.steps.ts
+    │     │
+    │     └── support
+    │            ├── hooks.ts
+    │            └── world.ts
+    │
+    ├── pages
+    │      └── LoginPage.ts
+    │
+    ├── playwright.config.ts
+    ├── cucumber.js
+    ├── package.json
+    └── tsconfig.json
+
+10- creer un fichier cucumber.js 
+11- creer un fichier playwright.config.ts 
+12- ajouter les script dans package.json
+
+
