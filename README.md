@@ -1,4 +1,4 @@
-# CVEA - Tests Automatisés Playwright + Cucumber + TypeScript
+# Tests Automatisés Playwright + Cucumber + TypeScript
 
 Projet de tests end-to-end utilisant **Playwright** pour le pilotage des navigateurs, **Cucumber** pour l'écriture des scénarios en Gherkin, et **TypeScript**.
 
