@@ -9,6 +9,7 @@
     "test:firefox": "cross-env BROWSER=firefox cucumber-js",
     "test:webkit": "cross-env BROWSER=webkit cucumber-js",
     "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit",
+    "test:allure": "cucumber-js --format progress-bar --format summary --format allure-cucumberjs/reporter",
     "allure:generate": "allure generate allure-results --clean -o allure-report",
     "allure:open": "allure open allure-report",
     "allure:serve": "allure serve allure-results"

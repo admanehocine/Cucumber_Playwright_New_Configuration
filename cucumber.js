@@ -5,12 +5,9 @@ module.exports = {
     paths: ['features/**/*.feature'],
     format: [
       'progress-bar',
-      'html:reports/cucumber-report.html',
-      'allure-cucumberjs/reporter'
+      'summary',
+      'html:reports/cucumber-report.html'
     ],
-    formatOptions: {
-      resultsDir: 'allure-results'
-    },
     publishQuiet: true,
     timeout: 60000
   }
